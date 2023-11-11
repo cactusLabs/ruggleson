@@ -1,0 +1,127 @@
+﻿@import "fonts.css";
+
+body {
+    background-color: #000;
+    margin: 40px;
+}
+
+/* DEFINE LAYOUT COMPONENTS */
+
+.logo {
+    grid-area: logo;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.content {
+    grid-area: content;
+}
+
+.header {
+    grid-area: header;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+/* DEFINE LAYOUT */
+
+.wrapper {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 20.0vw 80.0vw;
+    grid-template-areas:
+        "logo header header"
+        "sidebar content content"
+        "footer  footer  footer";
+    background-color: #000;
+    color: #000;
+}
+
+.box {
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+}
+
+/* DEFINE LAYOUT CONTENTS */
+
+.content {
+    background-color: #000;
+}
+
+.logo {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.header {
+    background-color: #000;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center; /*vertical-align*/
+}
+
+.footer {
+    background-color: #000;
+    bottom: 0px;
+    margin-right: 40px;
+    position: fixed;
+    right: 0px;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #000;
+    color: white;
+}
+
+/* GRID CONTENT STYLES */
+
+.content-header {
+    color: #fff;
+    font-family: 'scotland';
+    font-size: 5vw;
+    margin: 0 0 1px 0;
+    padding-bottom: 20px;
+    padding-left: 1.0vw;
+    text-align: left;
+}
+
+.content-text {
+    color: white;
+    font-family: 'poppins-regular';
+    font-size: 1.25vw;
+    margin: 0 30vw 0 2.5vw;
+    text-align: justify;
+}
+
+.footer-text {
+    color: white;
+    font-family: 'poppins-thin';
+    font-size: 1.0vw;
+    text-align: right;
+}
+
+.header-text {
+    font-family: scotland;
+    font-size: 15.0vw;
+    padding-left: 1.0vw;
+    text-align: left;
+}
+
+.swede {
+    text-align: center;
+    height: 100%; 
+    width: 100%; 
+}

@@ -1,0 +1,31 @@
+﻿@import "fonts.css";
+
+.hover-underline-animation {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-family: scotland;
+    font-size: 5.0vw;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.hover-underline-animation::after {
+    content: '';
+    background-color: #fff;
+    bottom: 0;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: bottom 50%;
+    transition: transform 0.25s ease-out; 
+    width: 100%;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(0.60);
+    transform-origin: bottom 50%;
+}

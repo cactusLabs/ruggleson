@@ -1,0 +1,19 @@
+﻿@font-face {
+    font-family: poppins-italic;
+    src: url('../fonts/poppins-italic.ttf')
+}
+
+@font-face {
+    font-family: poppins-regular;
+    src: url('../fonts/poppins-regular.ttf')
+}
+
+@font-face {
+    font-family: poppins-thin;
+    src: url('../fonts/poppins-thin.ttf')
+}
+
+@font-face {
+    font-family: scotland;
+    src: url('../fonts/scotland.otf');
+}

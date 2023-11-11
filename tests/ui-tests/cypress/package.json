@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "cypress": "^13.5.0",
+    "eslint": "^8.53.0",
+    "xpath_cypress": "^1.0.2"
+  },
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "util": "^0.12.5"
+  }
+}

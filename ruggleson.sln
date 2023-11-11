@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F673EE3-CCAE-4A8D-8EA2-209C6BF98869}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{60E27582-A741-49F1-9855-0219E3A57407}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{C4DA274B-3D3B-4101-B603-5C1AE2FF4701}"
+	ProjectSection(SolutionItems) = preProject
+		resources\css\buttons.css = resources\css\buttons.css
+		resources\css\fonts.css = resources\css\fonts.css
+		resources\css\layout.css = resources\css\layout.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{5D11B3F7-F19B-4276-97D4-38F67D08B79E}"
+	ProjectSection(SolutionItems) = preProject
+		resources\fonts\poppins-italic.ttf = resources\fonts\poppins-italic.ttf
+		resources\fonts\poppins-regular.ttf = resources\fonts\poppins-regular.ttf
+		resources\fonts\poppins-thin.ttf = resources\fonts\poppins-thin.ttf
+		resources\fonts\scotland.otf = resources\fonts\scotland.otf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{A915D59C-88DE-4FE7-BCA8-12B114141DE0}"
+	ProjectSection(SolutionItems) = preProject
+		resources\images\swedeAs.png = resources\images\swedeAs.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{CB209C5C-1103-461F-B733-190CE97DDCDD}"
+	ProjectSection(SolutionItems) = preProject
+		resources\scripts\setContext.js = resources\scripts\setContext.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{47D8719E-2F43-45CF-A1FD-EB3765284929}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ui-tests", "ui-tests", "{DDF138DF-451F-4BE7-B5BF-E154A74A5531}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cypress", "cypress", "{962AC6D4-7812-42C6-A7F2-A3750E30FBA5}"
+	ProjectSection(SolutionItems) = preProject
+		tests\ui-tests\cypress\cypress.config.js = tests\ui-tests\cypress\cypress.config.js
+		tests\ui-tests\cypress\package.json = tests\ui-tests\cypress\package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cypress", "cypress", "{7B70D5F6-DCF0-4FE9-9AE4-302D448C959A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "e2e", "e2e", "{2823FE3C-CB5C-4232-B95D-0EC66ED40A12}"
+	ProjectSection(SolutionItems) = preProject
+		tests\ui-tests\cypress\cypress\e2e\spec.cy.js = tests\ui-tests\cypress\cypress\e2e\spec.cy.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fixtures", "fixtures", "{9EC7D014-4DE0-4374-BB00-C4E1B939BA36}"
+	ProjectSection(SolutionItems) = preProject
+		tests\ui-tests\cypress\cypress\fixtures\example.json = tests\ui-tests\cypress\cypress\fixtures\example.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "support", "support", "{F2239F76-9943-4E21-96CB-FDCDD20B89CB}"
+	ProjectSection(SolutionItems) = preProject
+		tests\ui-tests\cypress\cypress\support\commands.js = tests\ui-tests\cypress\cypress\support\commands.js
+		tests\ui-tests\cypress\cypress\support\e2e.js = tests\ui-tests\cypress\cypress\support\e2e.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60E27582-A741-49F1-9855-0219E3A57407} = {6F673EE3-CCAE-4A8D-8EA2-209C6BF98869}
+		{C4DA274B-3D3B-4101-B603-5C1AE2FF4701} = {60E27582-A741-49F1-9855-0219E3A57407}
+		{5D11B3F7-F19B-4276-97D4-38F67D08B79E} = {60E27582-A741-49F1-9855-0219E3A57407}
+		{A915D59C-88DE-4FE7-BCA8-12B114141DE0} = {60E27582-A741-49F1-9855-0219E3A57407}
+		{CB209C5C-1103-461F-B733-190CE97DDCDD} = {60E27582-A741-49F1-9855-0219E3A57407}
+		{47D8719E-2F43-45CF-A1FD-EB3765284929} = {6F673EE3-CCAE-4A8D-8EA2-209C6BF98869}
+		{DDF138DF-451F-4BE7-B5BF-E154A74A5531} = {47D8719E-2F43-45CF-A1FD-EB3765284929}
+		{962AC6D4-7812-42C6-A7F2-A3750E30FBA5} = {DDF138DF-451F-4BE7-B5BF-E154A74A5531}
+		{7B70D5F6-DCF0-4FE9-9AE4-302D448C959A} = {962AC6D4-7812-42C6-A7F2-A3750E30FBA5}
+		{2823FE3C-CB5C-4232-B95D-0EC66ED40A12} = {7B70D5F6-DCF0-4FE9-9AE4-302D448C959A}
+		{9EC7D014-4DE0-4374-BB00-C4E1B939BA36} = {7B70D5F6-DCF0-4FE9-9AE4-302D448C959A}
+		{F2239F76-9943-4E21-96CB-FDCDD20B89CB} = {7B70D5F6-DCF0-4FE9-9AE4-302D448C959A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65AC0BE3-43CA-4CB0-AA01-5A74F5301EDD}
+	EndGlobalSection
+EndGlobal
