@@ -8,6 +8,8 @@
     "cypress:open": "cypress open"
   },
   "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "util": "^0.12.5"
-  }
+  },
+  "cypress-cucumber-preprocessor": { "nonGlobalStepDefinitions": true }
 }
