@@ -1,5 +1,4 @@
 require('xpath_cypress');
-
 class homepage {
 
     elements = {
@@ -10,7 +9,7 @@ class homepage {
         sidebar_news : () => cy.xpath("//button[@id='button-news']"),
         sidebar_links : () => cy.xpath("//button[@id='button-links']"),
         sidebar_contact : () => cy.xpath("//button[@id='button-contact']"),
-        footer_text : () => cy.xpath('//*[@class="footer-text"]')
+        footer_text : () => cy.xpath("//*[@class='footer-text']")
     }
 
     click_sidebar_news() {
