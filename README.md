@@ -1,4 +1,4 @@
-Personal website solution including e2e test examples.
+Personal website solution including e2e test examples.  This is under active development.
 
 Requires NPM: 
 * npm install
