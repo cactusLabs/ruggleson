@@ -8,7 +8,7 @@ Requires NPM:
 * npm install cypress
 * npm install -–save-dev cypress-cucumber-preprocessor
 
-Run Cypress test runner with 'npm run cypress:open'
+Usage: Cypress test runner with 'npm run cypress:open'
 
 **Selenium Installation Notes:**
 
@@ -17,4 +17,4 @@ Run Cypress test runner with 'npm run cypress:open'
 * npm install chromedriver geckodriver
 * npm install assert
 
-Run with 'npm test' or '.\\node_modules\\.bin\\cucumber-js'
+Usage: 'npm selenium_tests' or '.\\node_modules\\.bin\\cucumber-js'
