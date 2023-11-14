@@ -1,5 +1,6 @@
 module.exports = function () {
-    this.After(function () {
-        return this.driver.quit();
+    this.After(async function () {
+        await this.driver.quit();
+        return this.driver = null;
     });
 };

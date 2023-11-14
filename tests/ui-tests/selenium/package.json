@@ -3,6 +3,7 @@
     "assert": "^2.1.0",
     "chromedriver": "^119.0.1",
     "geckodriver": "^4.2.1",
+    "protractor": "^7.0.0",
     "selenium-webdriver": "^4.15.0"
   },
   "scripts": {

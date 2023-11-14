@@ -1,30 +1,21 @@
-module.exports = function () {
-    // Elements
-    let header_text = "//*[@class='header-text']";
-    let content_header_text = "//*[@class='content-header']";
-    let content_text = "//*[@class='content-text']";
-    let logo_image = "//img[@class='swede']";
-    let sidebar_news = "//button[@id='button-news']";
-    let sidebar_links = "//button[@id='button-links']";
-    let sidebar_contact = "//button[@id='button-contact']";
-    let footer_text = "//*[@class='footer-text']";
+let header_text,
+    content_header_text,
+    content_text,
+    logo_image,
+    sidebar_news,
+    sidebar_links,
+    sidebar_contact,
+    footer_text;
 
-    //page actions:  
-    //to open a URL
-    //async click_sidebar_news() {
+class homepage {
+    header_text = "//*[@class='header-text']";
+    content_header_text = "//*[@class='content-header']";
+    content_text = "//*[@class='content-text']";
+    logo_image = "//img[@class='swede']";
+    sidebar_news = "//button[@id='button-news']";
+    sidebar_links = "//button[@id='button-links']";
+    sidebar_contact = "//button[@id='button-contact']";
+    footer_text = "//*[@class='footer-text']";
 
-
-    //}
-
-    //click_sidebar_news() {
-    //    this.elements.sidebar_news().click()
-    //}
-
-    //click_sidebar_links() {
-    //    this.elements.sidebar_links().click()
-    //}
-
-    //click_sidebar_contact() {
-    //    this.elements.sidebar_contact().click()
-    //}
 };
+module.exports = new homepage();
