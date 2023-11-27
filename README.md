@@ -1,5 +1,9 @@
 **Personal website solution including e2e test examples.  This is pretty sparse and under development.**
 
+**Test Framework Examples**
+
+Bare bones Cypress & Selenium example tests using Page Object Model.
+
 Requires NPM: 
 * npm install
 
