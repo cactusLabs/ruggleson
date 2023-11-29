@@ -3,9 +3,12 @@ var homepage = require("../../pages/homepage");
 const { By } = require('selenium-webdriver');
 
 module.exports = function () {
-    this.Given('I visit the home page', async function () {
-        this.driver.get('http://www.ruggleson.com');
+    this.Then('the home page footer loads as expected', async function () {
+        await this.driver.findElement(By.xpath(homepage.footer_text)).then(async function (footer_text) {
+            await assert.equal(await footer_text.getAttribute("innerHTML"), 'copyright \xA9 2023 john ruggles, cactus labs. all rights reserved.');
+        });
     });
+
     this.Then('the home page header loads as expected', async function () {
         await this.driver.findElement(By.xpath(homepage.header_text)).then(async function (header) {
             await assert.equal(await header.getAttribute("innerHTML"), "ruggles online");
@@ -28,10 +31,5 @@ module.exports = function () {
             await assert.equal(await button_contact.getAttribute("innerHTML"), 'contact');
         });
 
-    });
-    this.Then('the home page footer loads as expected', async function () {
-        await this.driver.findElement(By.xpath(homepage.footer_text)).then(async function (footer_text) {
-            await assert.equal(await footer_text.getAttribute("innerHTML"), 'copyright \xA9 2023 john ruggles, cactus labs. all rights reserved.');
-        });
     });
 };

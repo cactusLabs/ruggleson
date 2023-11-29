@@ -1,4 +1,4 @@
-import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
+ import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 import homepage from "../../pages/homepage";
 
 Then("the home page sidebar behaves as expected", () => {

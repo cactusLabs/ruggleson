@@ -21,4 +21,4 @@ Usage: Cypress test runner with 'npm run cypress:open'
 * npm install chromedriver geckodriver
 * npm install assert
 
-Usage: 'npm selenium_tests' or '.\\node_modules\\.bin\\cucumber-js'
+Usage: 'npm run selenium_tests' or '.\\node_modules\\.bin\\cucumber-js'

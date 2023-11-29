@@ -1,6 +1,10 @@
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 import homepage from "../../pages/homepage";
 
+Then("the home page footer loads as expected", () => {
+    homepage.elements.footer_text().should('have.text', 'copyright \xA9 2023 john ruggles, cactus labs. all rights reserved.');
+});
+
 Then("the home page header loads as expected", () => {
     cy.visit('https://www.ruggleson.com');
     homepage.elements.header_text().should('have.text', 'ruggles online');
@@ -19,8 +23,3 @@ Then("the home page sidebar loads as expected", () => {
     homepage.elements.sidebar_links().should('have.text', 'links');
     homepage.elements.sidebar_contact().should('have.text', 'contact');
 });
-
-Then("the home page footer loads as expected", () => {
-    homepage.elements.footer_text().should('have.text', 'copyright \xA9 2023 john ruggles, cactus labs. all rights reserved.');
-});
-
