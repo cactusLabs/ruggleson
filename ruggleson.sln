@@ -97,11 +97,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "features", "features", "{3228EF8F-D93D-435D-9CA0-75616E9815AD}"
 	ProjectSection(SolutionItems) = preProject
 		tests\ui-tests\selenium\features\homepage.feature = tests\ui-tests\selenium\features\homepage.feature
+		tests\ui-tests\selenium\features\homepage_sidebar.feature = tests\ui-tests\selenium\features\homepage_sidebar.feature
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "step-definitions", "step-definitions", "{D10D9E21-C636-428B-BF13-16AA025AA284}"
 	ProjectSection(SolutionItems) = preProject
+		tests\ui-tests\selenium\features\step-definitions\common.js = tests\ui-tests\selenium\features\step-definitions\common.js
 		tests\ui-tests\selenium\features\step-definitions\homepage.js = tests\ui-tests\selenium\features\step-definitions\homepage.js
+		tests\ui-tests\selenium\features\step-definitions\homepage_sidebar.js = tests\ui-tests\selenium\features\step-definitions\homepage_sidebar.js
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "support", "support", "{B6C8FA56-EA0A-449C-B80B-681B4B8A6E81}"
