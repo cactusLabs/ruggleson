@@ -66,13 +66,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pages", "pages", "{5B90B731-B2D1-46B1-B720-C0B917872EC7}"
 	ProjectSection(SolutionItems) = preProject
 		tests\ui-tests\cypress\cypress\pages\homepage.js = tests\ui-tests\cypress\cypress\pages\homepage.js
+		tests\ui-tests\cypress\cypress\pages\links.js = tests\ui-tests\cypress\cypress\pages\links.js
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "integration", "integration", "{F6F6240B-5C43-4012-8C8D-DBE29BAD4F0E}"
-	ProjectSection(SolutionItems) = preProject
-		tests\ui-tests\cypress\cypress\integration\homepage.feature = tests\ui-tests\cypress\cypress\integration\homepage.feature
-		tests\ui-tests\cypress\cypress\integration\homepage_sidebar.feature = tests\ui-tests\cypress\cypress\integration\homepage_sidebar.feature
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "homepage", "homepage", "{5DCB0C90-F4A0-49F5-9C71-7CF6DF2C6EAE}"
 	ProjectSection(SolutionItems) = preProject
@@ -118,6 +115,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pages", "pages", "{7DE28271
 		tests\ui-tests\selenium\pages\homepage.js = tests\ui-tests\selenium\pages\homepage.js
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "links", "links", "{0FB3FA28-CD83-40A7-8F07-2C85189F0FE1}"
+	ProjectSection(SolutionItems) = preProject
+		tests\ui-tests\cypress\cypress\integration\links\links.spec.js = tests\ui-tests\cypress\cypress\integration\links\links.spec.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "features", "features", "{7EAC9EC6-D986-45F2-B4E1-1445C2D6B775}"
+	ProjectSection(SolutionItems) = preProject
+		tests\ui-tests\cypress\cypress\integration\step_definitions\homepage.feature = tests\ui-tests\cypress\cypress\integration\step_definitions\homepage.feature
+		tests\ui-tests\cypress\cypress\integration\step_definitions\homepage_sidebar.feature = tests\ui-tests\cypress\cypress\integration\step_definitions\homepage_sidebar.feature
+		tests\ui-tests\cypress\cypress\integration\step_definitions\links.feature = tests\ui-tests\cypress\cypress\integration\step_definitions\links.feature
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,6 +154,8 @@ Global
 		{D10D9E21-C636-428B-BF13-16AA025AA284} = {3228EF8F-D93D-435D-9CA0-75616E9815AD}
 		{B6C8FA56-EA0A-449C-B80B-681B4B8A6E81} = {3228EF8F-D93D-435D-9CA0-75616E9815AD}
 		{7DE28271-B5CC-4AAD-B51D-75CA7F80A6A8} = {1C039E01-3751-4493-A1B4-B6557382D51F}
+		{0FB3FA28-CD83-40A7-8F07-2C85189F0FE1} = {F6F6240B-5C43-4012-8C8D-DBE29BAD4F0E}
+		{7EAC9EC6-D986-45F2-B4E1-1445C2D6B775} = {F6F6240B-5C43-4012-8C8D-DBE29BAD4F0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {65AC0BE3-43CA-4CB0-AA01-5A74F5301EDD}

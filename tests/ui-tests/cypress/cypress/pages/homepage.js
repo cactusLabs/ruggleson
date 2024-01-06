@@ -13,15 +13,15 @@ class homepage {
     }
 
     click_sidebar_news() {
-        this.elements.sidebar_news().click()
+        this.elements.sidebar_news().click();
     }
 
     click_sidebar_links() {
-        this.elements.sidebar_links().click()
+        this.elements.sidebar_links().click();
     }
 
     click_sidebar_contact() {
-        this.elements.sidebar_contact().click()
+        this.elements.sidebar_contact().click();
     }
 }
 

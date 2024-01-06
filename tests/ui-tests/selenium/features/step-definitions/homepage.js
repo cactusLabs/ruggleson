@@ -8,7 +8,6 @@ module.exports = function () {
             await assert.equal(await footer_text.getAttribute("innerHTML"), 'copyright \xA9 2023 john ruggles, cactus labs. all rights reserved.');
         });
     });
-
     this.Then('the home page header loads as expected', async function () {
         await this.driver.findElement(By.xpath(homepage.header_text)).then(async function (header) {
             await assert.equal(await header.getAttribute("innerHTML"), "ruggles online");
@@ -30,6 +29,5 @@ module.exports = function () {
         await this.driver.findElement(By.xpath(homepage.sidebar_contact)).then(async function (button_contact) {
             await assert.equal(await button_contact.getAttribute("innerHTML"), 'contact');
         });
-
     });
 };

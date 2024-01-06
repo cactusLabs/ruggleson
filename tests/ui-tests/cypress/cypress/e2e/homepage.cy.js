@@ -1,5 +1,5 @@
 //Note that this class has been superceded by the Gherkin integration
-//Leaving here for reference, but will be removed at some future point
+//Leaving here for reference/example, but will be removed at some future point
 import homepage from "../pages/homepage";
 
 describe('home page header loads as expected', () => {

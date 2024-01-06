@@ -11,7 +11,7 @@ function setContext(header_name) {
             content = "<p>Welcome to Ruggles online. Website under development.</p>";
             break;
         case "links":
-            content = "<p>Website under development.</p>"
+            content = "<p><a href='https://www.youtube.com/channel/UCR4irx2OoqMu_WwKr5_BoMw' id='link-youtube'>ruggles on youtube</a></p>"
             break;
         case "contact":
             content = "<p>Contact details coming soon.</p>"
