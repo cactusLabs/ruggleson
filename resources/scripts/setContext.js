@@ -8,8 +8,10 @@ function setContext(header_name) {
 
     switch (header_name) {
         case "news":
-            content = "<p>welcome to ruggles online. this website is under development.</p>" +
-                "please feel free to have a sniff around.";
+            content =
+                "<p>welcome to ruggles online.</p>" +
+                "<p>this website is under development.</p > " +
+                "<p>please feel free to have a sniff around.</p>";
             break;
         case "links":
             content = "<p><a href='https://github.com/cactusLabs' id='link-github'>ruggles on github</a></p>" +
@@ -17,7 +19,15 @@ function setContext(header_name) {
                 "<p><a href='https://www.youtube.com/channel/UCR4irx2OoqMu_WwKr5_BoMw' id='link-youtube'>ruggles on youtube</a></p>";
             break;
         case "contact":
-            content = "<p>contact details coming soon.</p>"
+            content =
+                "<p>drop us a line...</p>" +
+                "<p>note that this page isn't functional...</p>" +
+                "<form onsubmit='return false'>" + 
+                "<input type='text' class='form-input' placeholder='email address...' id='form-email'/><br>" +
+                "<input type='text' class='form-input' placeholder='subject...' id='form-subject'/><br><br>" +
+                "<textarea  class='form-message' placeholder='message...' id='form-message'/></textarea><br>" +
+                "<button onclick='sendContact();'>bombs away</button>" +
+                "</form>"
             break;
     }
     document.getElementById('content-text').innerHTML = content;
