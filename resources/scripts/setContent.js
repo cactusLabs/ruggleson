@@ -1,4 +1,4 @@
-function setContext(header_name) {
+function setContent(header_name) {
     //Set header
     let div = document.getElementById('content-header');
     div.innerHTML = header_name + '...';

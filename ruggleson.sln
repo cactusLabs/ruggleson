@@ -32,7 +32,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{A915D5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{CB209C5C-1103-461F-B733-190CE97DDCDD}"
 	ProjectSection(SolutionItems) = preProject
-		resources\scripts\setContext.js = resources\scripts\setContext.js
+		resources\scripts\setContent.js = resources\scripts\setContent.js
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{47D8719E-2F43-45CF-A1FD-EB3765284929}"
