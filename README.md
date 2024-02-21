@@ -7,6 +7,7 @@ Bare bones Cypress, Nightwatch & Selenium example tests using Page Object Model.
 Requires NPM: 
 * npm install
 
+
 **Cypress Installation Notes:**
 
 * npm install cypress
@@ -14,11 +15,13 @@ Requires NPM:
 
 Usage: Cypress test runner with 'npm run cypress:open'
 
+
 **Nighwatch Installation Notes:**
 
 * npm install nightwatch
 
 Usage: Gitbash 'npx nightwatch ./test/testname.js'
+
 
 **Selenium Installation Notes:**
 
