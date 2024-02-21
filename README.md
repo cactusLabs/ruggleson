@@ -2,7 +2,7 @@
 
 **Test Framework Examples**
 
-Bare bones Cypress & Selenium example tests using Page Object Model.
+Bare bones Cypress, Nightwatch & Selenium example tests using Page Object Model.  
 
 Requires NPM: 
 * npm install
@@ -14,6 +14,12 @@ Requires NPM:
 
 Usage: Cypress test runner with 'npm run cypress:open'
 
+**Nighwatch Installation Notes:**
+
+* npm install nightwatch
+
+Usage: Gitbash 'npx nightwatch ./test/testname.js'
+
 **Selenium Installation Notes:**
 
 * npm install cucumber@1.3.3 --save-dev
@@ -22,3 +28,4 @@ Usage: Cypress test runner with 'npm run cypress:open'
 * npm install assert
 
 Usage: 'npm run selenium_tests' or '.\\node_modules\\.bin\\cucumber-js'
+
